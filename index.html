@@ -23,37 +23,54 @@
 	<p><i>"From start to end the game incaptures every sense of your body! Well done EA!!" - Daniel Smith</i></p>
 	<br>
 	<h3><b>Register to our website Today:</b></h3>
+	<div>
 	<form name="Register Today" action="" method="post">
 			<div>
 				<label>First Name:</label>
 				<input type="text" name=FirstName>
-			</div>
-			<div>
 				<label>Last Name:</label>
 				<input type="text" name=LastName>
 			</div>
+			<br>
 			<div>
 				<label>Password:</label>
 				<input type="Password" name=Password>
+			
+			
+				<label>Re-Enter Password:</label>
+				<input type="Password" name=ReEnterPassword>
 			</div>
+			<br>
 			<div>
-				<label>Email:</label>
-				<input type="Email" name="EmailAddress">
-			</div>
-			<div>
-				<label>Choose your console</label>
+				<label>Choose your Console</label>
 				<select name="Console">
 						<option value="XboxOne">Xbox One</option>
 						<option value="PS4">PlayStation 4</option>
 						<option value="Xbox 360">Xbox 360</option>
 						<option value="PS3">PlayStation 3</option>
 				</select>
+				<label>Choose your Skill Level</label>
+				<select name="SkillLevel">
+					<option value="Novice">Novice</option>
+					<option value="Semi-Professional">Semi-Professional</option>
+					<option value="Professional">Professional</option>
+					<option value="Master Class">Master Class</option>
+				</select>
 			</div>
+			<br>
 			<div>
-				<label>Check box if you would like to receive newsletters</label>
+				<label>Email:</label>
+				<input type="Email" name="EmailAddress">
+				<label>Gamertag:</label>
+				<input type="text" name=Gamertag>
+			</div>
+			<br>
+			<div>
+				<label>Check box if you would like to receive our newsletters</label>
 				<input type="checkbox" name="newsletters" value="newsletters">
 			</div>
 		<button type="submit"><b>Submit</b></button>
 	</form>
+	</div>
 </body>
 </html>
