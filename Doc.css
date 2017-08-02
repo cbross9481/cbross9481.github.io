@@ -1,0 +1,24 @@
+body{
+	background-color: #262626;
+	color: white;
+}
+h1{
+	display: block;
+	font-weight: bold;
+	font-size: 75px;
+	color: Orange;
+	font-family:"Comic Sans MS";
+}
+#image1{
+	display:block;
+	width: 1500px;
+	height: 250px;
+}
+#button1{
+	background-color: yellow;
+	height: 75px;
+	width: 250px;
+	color: red;
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+}
